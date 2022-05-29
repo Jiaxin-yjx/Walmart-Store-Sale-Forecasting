@@ -8,14 +8,20 @@ Data Information
 
 stores.csv
 This file contains anonymized information about the 45 stores, indicating the type and size of store.
+
 train.csv
 This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
 
 Store - the store number
+
 Dept - the department number
+
 Date - the week
+
 Weekly_Sales -  sales for the given department in the given store
+
 IsHoliday - whether the week is a special holiday week
+
 test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
